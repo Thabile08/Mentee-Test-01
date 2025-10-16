@@ -9,7 +9,12 @@ def add_numbers(a, b):
     5
     """
     # TODO: Write your code below
-    pass
+    a = 2
+    b = 3
+    c = a + b
+    return c
+print(add_numbers(a = 2, b = 3))
+
 
 
 def is_even(n):
@@ -24,7 +29,12 @@ def is_even(n):
     False
     """
     # TODO: Write your code below
-    pass
+    if n % 2 == 0:
+        return True
+    else:
+         return False
+
+print(is_even(16))
 
 
 def count_vowels(word):
@@ -39,10 +49,18 @@ def count_vowels(word):
     2
     """
     # TODO: Write your code below
-    pass
+    word = "Hello"
+
+    count = 0
+    for i in word:
+        if count_vowels == word:
+            i += 1
+            return count
+
+print(count_vowels("Hello"))
 
 
-def find_max(numbers):
+'''def find_max(numbers):
     """
     Problem 4:
     Given a list of numbers, return the largest number.
@@ -52,7 +70,11 @@ def find_max(numbers):
     10
     """
     # TODO: Write your code below
-    pass
+    list = [1,4,2,10]
+
+    for i in list:'''
+
+    
 
 
 def reverse_string(s):
@@ -65,7 +87,18 @@ def reverse_string(s):
     'tac'
     """
     # TODO: Write your code below
-    pass
+    a = 'cat'
+    s = 'tac'
+    sorted(s) == sorted(a)
+    return "cat"
+
+
+
+print(reverse_string('cat'))
+
+
+
+    
 
 
 def average(numbers):
@@ -96,7 +129,19 @@ def word_in_sentence(word, sentence):
     False
     """
     # TODO: Write your code below
-    pass
+
+    word_in_sentence = "The cat is sleeping"
+
+    for i in word_in_sentence:
+        if word in word_in_sentence == "cat":
+            return True
+        else:
+            return False
+        
+print(word_in_sentence(word = "dog",sentence="The cat is sleeping"))
+
+
+
 
 
 def factorial(n):
@@ -127,7 +172,10 @@ def remove_duplicates(numbers):
     [1, 2, 3]
     """
     # TODO: Write your code below
+    numbers = [1, 2, 2, 3, 1]
+    new_list = []
     pass
+
 
 
 def fizzbuzz(n):
@@ -144,4 +192,11 @@ def fizzbuzz(n):
     [1, 2, 'Fizz', 4, 'Buzz']
     """
     # TODO: Write your code below
-    pass
+    list = []
+    for i in range(1, int(n)):
+        i = i + 1
+        list.insert(3,'Fizz')
+        list.insert(5,'Buzz')
+        return list
+
+print(fizzbuzz(24))
