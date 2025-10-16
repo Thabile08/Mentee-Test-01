@@ -199,8 +199,5 @@ def fizzbuzz(n):
         list.insert(5,'Buzz')
         return list
 
-<<<<<<< HEAD
 print(fizzbuzz(24))
-=======
 print(fizzbuzz(24))
->>>>>>> b9a37e2b0119ae402fc95bae91c46e2363184532
