@@ -181,7 +181,7 @@ def remove_duplicates(numbers):
 def fizzbuzz(n):
     """
     Problem 10:
-    Write a function that returns a list of numbers from 1 to n,
+    Write a function that returns a list of numbers from 1 to n, 1
     but replace:
     - multiples of 3 with "Fizz"
     - multiples of 5 with "Buzz"
